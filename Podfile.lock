@@ -1,0 +1,10 @@
+PODS:
+  - JASidePanels (1.3.2)
+
+DEPENDENCIES:
+  - JASidePanels (~> 1.3)
+
+SPEC CHECKSUMS:
+  JASidePanels: c0e642a7311ec9cc9adfa616fa4a795e4e169f20
+
+COCOAPODS: 0.32.1
