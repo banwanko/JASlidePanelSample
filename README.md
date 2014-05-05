@@ -21,4 +21,4 @@ open JASlidePanelSample.xcworkspace
 ```
 
 #LICENSE
-(./LICENSE)
+[MIT license.](https://github.com/banwanko/JASlidePanelSample/blob/master/LICENSE)
