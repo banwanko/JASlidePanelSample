@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE050E8B19174D0400E67556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE050E8A19174D0400E67556 /* Foundation.framework */; };
+		CE050E8D19174D0400E67556 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE050E8C19174D0400E67556 /* CoreGraphics.framework */; };
+		CE050E8F19174D0400E67556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE050E8E19174D0400E67556 /* UIKit.framework */; };
+		CE050E9519174D0400E67556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE050E9319174D0400E67556 /* InfoPlist.strings */; };
+		CE050E9719174D0400E67556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE050E9619174D0400E67556 /* main.m */; };
+		CE050E9B19174D0400E67556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE050E9A19174D0400E67556 /* AppDelegate.m */; };
+		CE050E9E19174D0400E67556 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE050E9C19174D0400E67556 /* Main_iPhone.storyboard */; };
+		CE050EA119174D0400E67556 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE050E9F19174D0400E67556 /* Main_iPad.storyboard */; };
+		CE050EA419174D0400E67556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE050EA319174D0400E67556 /* ViewController.m */; };
+		CE050EA619174D0400E67556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE050EA519174D0400E67556 /* Images.xcassets */; };
+		CE050EAD19174D0400E67556 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE050EAC19174D0400E67556 /* XCTest.framework */; };
+		CE050EAE19174D0400E67556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE050E8A19174D0400E67556 /* Foundation.framework */; };
+		CE050EAF19174D0400E67556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE050E8E19174D0400E67556 /* UIKit.framework */; };
+		CE050EB719174D0400E67556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE050EB519174D0400E67556 /* InfoPlist.strings */; };
+		CE050EB919174D0400E67556 /* JASlidePanelSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE050EB819174D0400E67556 /* JASlidePanelSampleTests.m */; };
+		CE050EC419174E7700E67556 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE050EC319174E7700E67556 /* CenterViewController.m */; };
+		CE050EC719174F3F00E67556 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE050EC619174F3F00E67556 /* LeftTableViewController.m */; };
+		EED4E7D4FAFA49DCB4A66143 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FED0D16790BB49F58A8BA685 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE050EB019174D0400E67556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE050E7F19174D0400E67556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE050E8619174D0400E67556;
+			remoteInfo = JASlidePanelSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A556676E8BA94B0D8B1326D3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CE050E8719174D0400E67556 /* JASlidePanelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JASlidePanelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE050E8A19174D0400E67556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE050E8C19174D0400E67556 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE050E8E19174D0400E67556 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE050E9219174D0400E67556 /* JASlidePanelSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JASlidePanelSample-Info.plist"; sourceTree = "<group>"; };
+		CE050E9419174D0400E67556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE050E9619174D0400E67556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE050E9819174D0400E67556 /* JASlidePanelSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JASlidePanelSample-Prefix.pch"; sourceTree = "<group>"; };
+		CE050E9919174D0400E67556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE050E9A19174D0400E67556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE050E9D19174D0400E67556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CE050EA019174D0400E67556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CE050EA219174D0400E67556 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE050EA319174D0400E67556 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE050EA519174D0400E67556 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE050EAB19174D0400E67556 /* JASlidePanelSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JASlidePanelSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE050EAC19174D0400E67556 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE050EB419174D0400E67556 /* JASlidePanelSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JASlidePanelSampleTests-Info.plist"; sourceTree = "<group>"; };
+		CE050EB619174D0400E67556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE050EB819174D0400E67556 /* JASlidePanelSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JASlidePanelSampleTests.m; sourceTree = "<group>"; };
+		CE050EC219174E7700E67556 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		CE050EC319174E7700E67556 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		CE050EC519174F3F00E67556 /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		CE050EC619174F3F00E67556 /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		CE050ECB1917657700E67556 /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
+		FED0D16790BB49F58A8BA685 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE050E8419174D0400E67556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE050E8D19174D0400E67556 /* CoreGraphics.framework in Frameworks */,
+				CE050E8F19174D0400E67556 /* UIKit.framework in Frameworks */,
+				CE050E8B19174D0400E67556 /* Foundation.framework in Frameworks */,
+				EED4E7D4FAFA49DCB4A66143 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE050EA819174D0400E67556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE050EAD19174D0400E67556 /* XCTest.framework in Frameworks */,
+				CE050EAF19174D0400E67556 /* UIKit.framework in Frameworks */,
+				CE050EAE19174D0400E67556 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE050E7E19174D0400E67556 = {
+			isa = PBXGroup;
+			children = (
+				CE050E9019174D0400E67556 /* JASlidePanelSample */,
+				CE050EB219174D0400E67556 /* JASlidePanelSampleTests */,
+				CE050E8919174D0400E67556 /* Frameworks */,
+				CE050E8819174D0400E67556 /* Products */,
+				A556676E8BA94B0D8B1326D3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CE050E8819174D0400E67556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE050E8719174D0400E67556 /* JASlidePanelSample.app */,
+				CE050EAB19174D0400E67556 /* JASlidePanelSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE050E8919174D0400E67556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE050E8A19174D0400E67556 /* Foundation.framework */,
+				CE050E8C19174D0400E67556 /* CoreGraphics.framework */,
+				CE050E8E19174D0400E67556 /* UIKit.framework */,
+				CE050EAC19174D0400E67556 /* XCTest.framework */,
+				FED0D16790BB49F58A8BA685 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE050E9019174D0400E67556 /* JASlidePanelSample */ = {
+			isa = PBXGroup;
+			children = (
+				CE050ECB1917657700E67556 /* AppDefine.h */,
+				CE050E9919174D0400E67556 /* AppDelegate.h */,
+				CE050E9A19174D0400E67556 /* AppDelegate.m */,
+				CE050E9C19174D0400E67556 /* Main_iPhone.storyboard */,
+				CE050E9F19174D0400E67556 /* Main_iPad.storyboard */,
+				CE050EA219174D0400E67556 /* ViewController.h */,
+				CE050EA319174D0400E67556 /* ViewController.m */,
+				CE050EA519174D0400E67556 /* Images.xcassets */,
+				CE050E9119174D0400E67556 /* Supporting Files */,
+				CE050EC219174E7700E67556 /* CenterViewController.h */,
+				CE050EC319174E7700E67556 /* CenterViewController.m */,
+				CE050EC519174F3F00E67556 /* LeftTableViewController.h */,
+				CE050EC619174F3F00E67556 /* LeftTableViewController.m */,
+			);
+			path = JASlidePanelSample;
+			sourceTree = "<group>";
+		};
+		CE050E9119174D0400E67556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE050E9219174D0400E67556 /* JASlidePanelSample-Info.plist */,
+				CE050E9319174D0400E67556 /* InfoPlist.strings */,
+				CE050E9619174D0400E67556 /* main.m */,
+				CE050E9819174D0400E67556 /* JASlidePanelSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE050EB219174D0400E67556 /* JASlidePanelSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE050EB819174D0400E67556 /* JASlidePanelSampleTests.m */,
+				CE050EB319174D0400E67556 /* Supporting Files */,
+			);
+			path = JASlidePanelSampleTests;
+			sourceTree = "<group>";
+		};
+		CE050EB319174D0400E67556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE050EB419174D0400E67556 /* JASlidePanelSampleTests-Info.plist */,
+				CE050EB519174D0400E67556 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE050E8619174D0400E67556 /* JASlidePanelSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE050EBC19174D0400E67556 /* Build configuration list for PBXNativeTarget "JASlidePanelSample" */;
+			buildPhases = (
+				F9449CEADA64440CA81FBAC2 /* Check Pods Manifest.lock */,
+				CE050E8319174D0400E67556 /* Sources */,
+				CE050E8419174D0400E67556 /* Frameworks */,
+				CE050E8519174D0400E67556 /* Resources */,
+				F67E9B4869E84595A1AC8AD7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JASlidePanelSample;
+			productName = JASlidePanelSample;
+			productReference = CE050E8719174D0400E67556 /* JASlidePanelSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE050EAA19174D0400E67556 /* JASlidePanelSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE050EBF19174D0400E67556 /* Build configuration list for PBXNativeTarget "JASlidePanelSampleTests" */;
+			buildPhases = (
+				CE050EA719174D0400E67556 /* Sources */,
+				CE050EA819174D0400E67556 /* Frameworks */,
+				CE050EA919174D0400E67556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE050EB119174D0400E67556 /* PBXTargetDependency */,
+			);
+			name = JASlidePanelSampleTests;
+			productName = JASlidePanelSampleTests;
+			productReference = CE050EAB19174D0400E67556 /* JASlidePanelSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE050E7F19174D0400E67556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "R.O Works";
+				TargetAttributes = {
+					CE050EAA19174D0400E67556 = {
+						TestTargetID = CE050E8619174D0400E67556;
+					};
+				};
+			};
+			buildConfigurationList = CE050E8219174D0400E67556 /* Build configuration list for PBXProject "JASlidePanelSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE050E7E19174D0400E67556;
+			productRefGroup = CE050E8819174D0400E67556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE050E8619174D0400E67556 /* JASlidePanelSample */,
+				CE050EAA19174D0400E67556 /* JASlidePanelSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE050E8519174D0400E67556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE050EA119174D0400E67556 /* Main_iPad.storyboard in Resources */,
+				CE050EA619174D0400E67556 /* Images.xcassets in Resources */,
+				CE050E9E19174D0400E67556 /* Main_iPhone.storyboard in Resources */,
+				CE050E9519174D0400E67556 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE050EA919174D0400E67556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE050EB719174D0400E67556 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F67E9B4869E84595A1AC8AD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9449CEADA64440CA81FBAC2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE050E8319174D0400E67556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE050EA419174D0400E67556 /* ViewController.m in Sources */,
+				CE050EC719174F3F00E67556 /* LeftTableViewController.m in Sources */,
+				CE050EC419174E7700E67556 /* CenterViewController.m in Sources */,
+				CE050E9B19174D0400E67556 /* AppDelegate.m in Sources */,
+				CE050E9719174D0400E67556 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE050EA719174D0400E67556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE050EB919174D0400E67556 /* JASlidePanelSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE050EB119174D0400E67556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE050E8619174D0400E67556 /* JASlidePanelSample */;
+			targetProxy = CE050EB019174D0400E67556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE050E9319174D0400E67556 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE050E9419174D0400E67556 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE050E9C19174D0400E67556 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE050E9D19174D0400E67556 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CE050E9F19174D0400E67556 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE050EA019174D0400E67556 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CE050EB519174D0400E67556 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE050EB619174D0400E67556 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE050EBA19174D0400E67556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE050EBB19174D0400E67556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE050EBD19174D0400E67556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A556676E8BA94B0D8B1326D3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JASlidePanelSample/JASlidePanelSample-Prefix.pch";
+				INFOPLIST_FILE = "JASlidePanelSample/JASlidePanelSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE050EBE19174D0400E67556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A556676E8BA94B0D8B1326D3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JASlidePanelSample/JASlidePanelSample-Prefix.pch";
+				INFOPLIST_FILE = "JASlidePanelSample/JASlidePanelSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE050EC019174D0400E67556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JASlidePanelSample.app/JASlidePanelSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JASlidePanelSample/JASlidePanelSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JASlidePanelSampleTests/JASlidePanelSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE050EC119174D0400E67556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JASlidePanelSample.app/JASlidePanelSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JASlidePanelSample/JASlidePanelSample-Prefix.pch";
+				INFOPLIST_FILE = "JASlidePanelSampleTests/JASlidePanelSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE050E8219174D0400E67556 /* Build configuration list for PBXProject "JASlidePanelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE050EBA19174D0400E67556 /* Debug */,
+				CE050EBB19174D0400E67556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE050EBC19174D0400E67556 /* Build configuration list for PBXNativeTarget "JASlidePanelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE050EBD19174D0400E67556 /* Debug */,
+				CE050EBE19174D0400E67556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE050EBF19174D0400E67556 /* Build configuration list for PBXNativeTarget "JASlidePanelSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE050EC019174D0400E67556 /* Debug */,
+				CE050EC119174D0400E67556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE050E7F19174D0400E67556 /* Project object */;
+}
