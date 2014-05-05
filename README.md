@@ -4,6 +4,8 @@ JASlidePanelSample
 [JASlidePanel](https://github.com/gotosleep/JASidePanels)を使ったサンプルプログラムです。
 左パネルのテーブルが選択された際に、センターパネルへ通知しセンターパネルの表示を指示します。
 
+![Alt screen shot](image.gif)
+
 # インストール
 [CocoaPods](http://cocoapods.org)が必要です。  
 まだインストールしていない場合にはターミナルからインストールしてください。
@@ -20,5 +22,6 @@ pod install
 open JASlidePanelSample.xcworkspace
 ```
 
-#LICENSE
-[MIT license.](https://github.com/banwanko/JASlidePanelSample/blob/master/LICENSE)
+#ライセンス
+
+[MIT License.](LICENSE)
