@@ -21,6 +21,8 @@ cd JASlidePanelSample
 pod install
 open JASlidePanelSample.xcworkspace
 ```
+#ブログ
+[サイドメニューを簡単に実現するライブラリ JASlidePanelsを試す](http://www.banwanko.net/?p=1019)
 
 #ライセンス
 
